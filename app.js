@@ -8,3 +8,6 @@ let btn = document.createElement("button");
 btn.innerText = "click me";
 let body = document.querySelector("body");
 body.append(btn);
+
+let p = document.querySelector("p");
+p.style.color = "blue";
